@@ -27,7 +27,7 @@
   - Working with stateful server processes
   - Runtime considerations
 
-- [ ] 6 Generic server processes
+- [x] 6 Generic server processes
   - Building a generic server process
   - Using GenServer
 
