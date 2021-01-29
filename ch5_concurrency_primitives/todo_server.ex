@@ -13,7 +13,7 @@ defmodule TodoServer do
   end
 
   def add_entry(todo_server, new_entry) do
-    send(todo_sever, {:add_entry, new_entry})
+    send(todo_server, {:add_entry, new_entry})
   end
 
   def entries(todo_server, date) do
